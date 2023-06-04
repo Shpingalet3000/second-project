@@ -12,6 +12,7 @@ i = ''
 v = ''
 t = ''
 tk = ''
+inst = ''
 
 
 def general_info_user(n_parameter, a_parameter, ph_parameter, e_parameter, i_parameter):
@@ -86,6 +87,7 @@ while True:
                 v = input('Введите адрес профиля Вконтакте: ')
                 t = input('Введите логин Telegram: ')
                 tk = input('Введите логин Tiktok: ')
+                inst = input('Введите логин Instagram: ')
             else:
                 print('Введите корректный пункт меню')
     elif option == 2:
@@ -112,6 +114,7 @@ while True:
                 print('Вконтакте:', v)
                 print('Telegram: ', t)
                 print('Tiktok:   ', tk)
+                print('Instagram', inst)
             else:
                 print('Введите корректный пункт меню')
     else:
